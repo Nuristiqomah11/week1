@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+     <title>isti</title>
+     <style>
+        .divpratice{
+         width:70%;
+         height:400px;
+         background-color: pink;
+         display: flex;
+         flex-direction: column; 
+         align-items:center;
+         justify-self: center;
+         padding:10px; 
+         margin:0px auto 0px auto;
+         
+         
+        }
+       .divpratice > .first{
+         width:40%;
+         height:200px;
+         background-color: green;
+        } 
+       .divpratice > .second{
+         width:40%;
+         height:300px;
+         background-color:blue;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+        }
+        .divpratice > .second >button{
+            margin-right:5px;
+            padding:10px;
+        }
+     </style>
+     <script>
+        function halo(){
+            alert('selamat datang!');
+
+            
+        }
+     </script>
+</head>
+<body>
+    <h1>Review Hari ini</h1>
+    <h2>Review Hari ini</h2>
+    <h3>Review Hari ini</h3>
+    <input type="text" id="input-box">
+    <div class="divpratice">
+        <div class="first" id="first-box">First Div</div>
+        <div class="second" id="second-box">
+            <button onclick="halo()">first Button</button>
+            <button>Second Button</button>
+            <button>Third Button</button>
+        </div>
+    </div>
+</body>
+</html>
